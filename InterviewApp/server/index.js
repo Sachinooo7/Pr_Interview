@@ -12,7 +12,7 @@ dotenv.config();
 const app=express();
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://interview-frontend-3mv7.onrender.com",
     credentials:true
 }))
 app.use(express.json());
